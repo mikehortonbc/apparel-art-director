@@ -1,0 +1,58 @@
+import { Artwork } from './types';
+
+export const artworks: Artwork[] = [
+  {
+    id: 'neon-hype',
+    title: 'Neon Hype Capsule',
+    category: 'Streetwear',
+    season: 'Spring/Summer',
+    style: 'Typography',
+    description: 'High-contrast typographic direction with fluorescent overlays.',
+    score: 94,
+  },
+  {
+    id: 'velocity-knit',
+    title: 'Velocity Knit Motion',
+    category: 'Sportswear',
+    season: 'Fall/Winter',
+    style: 'Photoreal',
+    description: 'Dynamic product scenes featuring movement and textile detail.',
+    score: 90,
+  },
+  {
+    id: 'monogram-garden',
+    title: 'Monogram Garden',
+    category: 'Luxury',
+    season: 'Resort',
+    style: 'Pattern',
+    description: 'Botanical monogram system adapted for prints and accessories.',
+    score: 97,
+  },
+  {
+    id: 'sunset-mural',
+    title: 'Sunset Mural Story',
+    category: 'Casual',
+    season: 'Spring/Summer',
+    style: 'Illustration',
+    description: 'Hand-painted gradient mural translated into wearable graphics.',
+    score: 88,
+  },
+  {
+    id: 'velocity-grid',
+    title: 'Velocity Grid System',
+    category: 'Sportswear',
+    season: 'Resort',
+    style: 'Pattern',
+    description: 'Parametric linework concept for performance tops and trims.',
+    score: 91,
+  },
+  {
+    id: 'atelier-ink',
+    title: 'Atelier Ink Drop',
+    category: 'Luxury',
+    season: 'Fall/Winter',
+    style: 'Illustration',
+    description: 'Painterly ink motifs balancing subtle luxury and edge.',
+    score: 95,
+  },
+];
